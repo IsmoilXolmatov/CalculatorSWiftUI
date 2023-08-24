@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1847B6662A94DD0D007F8AE1 /* SwiftUIAnimation1SideMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847B6652A94DD0D007F8AE1 /* SwiftUIAnimation1SideMenuApp.swift */; };
-		1847B6682A94DD0D007F8AE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847B6672A94DD0D007F8AE1 /* ContentView.swift */; };
+		1847B6662A94DD0D007F8AE1 /* CalculatorSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847B6652A94DD0D007F8AE1 /* CalculatorSwiftUI.swift */; };
+		1847B6682A94DD0D007F8AE1 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847B6672A94DD0D007F8AE1 /* MenuItemView.swift */; };
 		1847B66A2A94DD10007F8AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1847B6692A94DD0F007F8AE1 /* Assets.xcassets */; };
 		1847B66D2A94DD10007F8AE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1847B66C2A94DD10007F8AE1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1847B6622A94DD0D007F8AE1 /* SwiftUIAnimation1SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation1SideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1847B6652A94DD0D007F8AE1 /* SwiftUIAnimation1SideMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimation1SideMenuApp.swift; sourceTree = "<group>"; };
-		1847B6672A94DD0D007F8AE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1847B6622A94DD0D007F8AE1 /* CalculatorSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1847B6652A94DD0D007F8AE1 /* CalculatorSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorSwiftUI.swift; sourceTree = "<group>"; };
+		1847B6672A94DD0D007F8AE1 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		1847B6692A94DD0F007F8AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1847B66C2A94DD10007F8AE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,7 +35,7 @@
 		1847B6592A94DD0C007F8AE1 = {
 			isa = PBXGroup;
 			children = (
-				1847B6642A94DD0D007F8AE1 /* SwiftUIAnimation1SideMenu */,
+				1847B6642A94DD0D007F8AE1 /* CalculatorSwiftUI */,
 				1847B6632A94DD0D007F8AE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		1847B6632A94DD0D007F8AE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1847B6622A94DD0D007F8AE1 /* SwiftUIAnimation1SideMenu.app */,
+				1847B6622A94DD0D007F8AE1 /* CalculatorSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1847B6642A94DD0D007F8AE1 /* SwiftUIAnimation1SideMenu */ = {
+		1847B6642A94DD0D007F8AE1 /* CalculatorSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				1847B6652A94DD0D007F8AE1 /* SwiftUIAnimation1SideMenuApp.swift */,
-				1847B6672A94DD0D007F8AE1 /* ContentView.swift */,
+				1847B6652A94DD0D007F8AE1 /* CalculatorSwiftUI.swift */,
+				1847B6672A94DD0D007F8AE1 /* MenuItemView.swift */,
 				1847B6692A94DD0F007F8AE1 /* Assets.xcassets */,
 				1847B66B2A94DD10007F8AE1 /* Preview Content */,
 			);
-			path = SwiftUIAnimation1SideMenu;
+			path = CalculatorSwiftUI;
 			sourceTree = "<group>";
 		};
 		1847B66B2A94DD10007F8AE1 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1847B6612A94DD0D007F8AE1 /* SwiftUIAnimation1SideMenu */ = {
+		1847B6612A94DD0D007F8AE1 /* CalculatorSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1847B6702A94DD10007F8AE1 /* Build configuration list for PBXNativeTarget "SwiftUIAnimation1SideMenu" */;
+			buildConfigurationList = 1847B6702A94DD10007F8AE1 /* Build configuration list for PBXNativeTarget "CalculatorSwiftUI" */;
 			buildPhases = (
 				1847B65E2A94DD0D007F8AE1 /* Sources */,
 				1847B65F2A94DD0D007F8AE1 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUIAnimation1SideMenu;
+			name = CalculatorSwiftUI;
 			productName = SwiftUIAnimation1SideMenu;
-			productReference = 1847B6622A94DD0D007F8AE1 /* SwiftUIAnimation1SideMenu.app */;
+			productReference = 1847B6622A94DD0D007F8AE1 /* CalculatorSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1847B65D2A94DD0D007F8AE1 /* Build configuration list for PBXProject "SwiftUIAnimation1SideMenu" */;
+			buildConfigurationList = 1847B65D2A94DD0D007F8AE1 /* Build configuration list for PBXProject "CalculatorSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1847B6612A94DD0D007F8AE1 /* SwiftUIAnimation1SideMenu */,
+				1847B6612A94DD0D007F8AE1 /* CalculatorSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1847B6682A94DD0D007F8AE1 /* ContentView.swift in Sources */,
-				1847B6662A94DD0D007F8AE1 /* SwiftUIAnimation1SideMenuApp.swift in Sources */,
+				1847B6682A94DD0D007F8AE1 /* MenuItemView.swift in Sources */,
+				1847B6662A94DD0D007F8AE1 /* CalculatorSwiftUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +199,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = CalculatorSwiftUI;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -252,6 +253,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = CalculatorSwiftUI;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -266,7 +268,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimation1SideMenu/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CalculatorSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = NS9ZWM6RGA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimation1SideMenu/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CalculatorSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = NS9ZWM6RGA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -320,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1847B65D2A94DD0D007F8AE1 /* Build configuration list for PBXProject "SwiftUIAnimation1SideMenu" */ = {
+		1847B65D2A94DD0D007F8AE1 /* Build configuration list for PBXProject "CalculatorSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1847B66E2A94DD10007F8AE1 /* Debug */,
@@ -329,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1847B6702A94DD10007F8AE1 /* Build configuration list for PBXNativeTarget "SwiftUIAnimation1SideMenu" */ = {
+		1847B6702A94DD10007F8AE1 /* Build configuration list for PBXNativeTarget "CalculatorSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1847B6712A94DD10007F8AE1 /* Debug */,
