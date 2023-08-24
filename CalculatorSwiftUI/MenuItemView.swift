@@ -162,8 +162,9 @@ struct ContentView: View {
                 value = "\(value)\(number)"
             }
         }
-        
     }
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
