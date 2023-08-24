@@ -84,6 +84,7 @@ struct ContentView: View {
                                         height: self.buttonHeight(),
                                         alignment: .center
                                     )
+                                
                                     .foregroundColor(.white)
                                     .background(item.buttonColor)
                                     .cornerRadius(self.buttonHeight() / 2)
@@ -95,6 +96,8 @@ struct ContentView: View {
             }
         }
     }
+    
+    
     
     func buttonWidth(item: CalButton) -> CGFloat {
         if item == .equal {
@@ -163,7 +166,6 @@ struct ContentView: View {
             }
         }
     }
-    
     
 }
 
